@@ -1,0 +1,42 @@
+{
+  "name": "apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index.js",
+    "prod": "NODE_ENV=production nodemon index.js",
+    "dev": "nodemon index.js",
+    "demo": "node index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "~8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "express-validator": "^6.12.2",
+    "flat": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "helmet": "^4.6.0",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.15",
+    "mongoose-auto-increment": "^5.0.1",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
